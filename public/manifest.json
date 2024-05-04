@@ -1,0 +1,8 @@
+{
+  "short_name": "personal website revision 4",
+  "name": "personal website revision 4",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#101010",
+  "background_color": "#ffffff"
+}

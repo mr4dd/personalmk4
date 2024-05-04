@@ -1,0 +1,178 @@
+.landing, .about, .stack, .projects {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center
+}
+.landing {
+	background-image: linear-gradient(to bottom, #10101088, #ffffff, #ffffff);
+}
+.projects {
+	background-image: linear-gradient(to top, #10101088, #ffffff, #ffffff);
+}
+h1 {
+	font-size: 64px;
+	margin: 2px;
+}
+.welcome-text-p1 {
+	margin-right: 200px;
+}
+.name {
+	margin-left: 200px;
+	background: linear-gradient(to top, #610499, #be55ff);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+p {
+	font-family: Roboto, Mono;
+	font-size: 36px;
+	margin: 2px;
+	padding-left: 40px;
+	text-align: start;
+}
+.about-skill {
+	padding: 0;
+	background: linear-gradient(to top, #610499, #be55ff);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+h2 {
+	font-size: 40px;
+}
+.master {
+	display: grid;
+	gap: 3px;
+	height: inherit;
+	width: inherit;
+}
+.lang-banner {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row: 1;
+	border: 1px lightgrey solid;
+	border-radius: 5px;
+	background-image: url("https://skillicons.dev/icons?i=py,js,html,css,c,go");
+	background-height: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.linux-banner {
+	grid-column: 1;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	border: 1px lightgrey solid;
+	border-radius: 5px;
+	background-image: url("/public/Tux.svg.webp");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.docker-banner {
+	grid-column: 2;
+	grid-row: 2;
+	border: 1px lightgrey solid;
+	border-radius: 5px;
+	background-image: url("/public/docker.webp");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.sql-banner {
+	grid-column: 2;
+	grid-row: 3;
+	border: 1px lightgrey solid;
+	background-image: url("/public/postgres-elephant.svg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 5px;
+}
+h2 {
+	font-family: roboto, mono;
+	background: linear-gradient(to top, #610499, #be55ff);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+ul {
+	font-size: 36px;
+	font-family: Roboto, Mono;
+	list-style: none;
+}
+li {
+	margin: 30px auto 30px auto;
+	text-align: start;
+}
+li a {
+	color: #101010;
+}
+
+.App-header {
+  position: absolute;
+  top: 0;
+  height: 40px;
+  width: 100vw;
+  margin: 0 4px 0 4px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+footer {
+	height: 20px;
+	width: 100vw;
+	justify-content: space-evenly;
+	margin-top: auto;
+	display: flex;
+}
+.return {
+	display: none;
+}
+
+a {
+	color: white;
+}
+.copyright {
+	font-size: 16px;
+	color: white;
+	margin: 0;
+	font-family: Cantarel, regular;
+}
+
+@media screen and (min-width: 1200px) {
+	.sql-banner {
+		background-size: 200px;
+		background-position-y: 100px; 
+	}
+	.App-header {
+		display: flex;
+	}
+	.lang-banner {
+		background-size: 90%;
+	}
+	.return{
+		font-size: 32px;
+		border: 1px solid #101010;
+		border-radius: 30px;
+		width: 55px;
+		height: 55px;
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		bottom: -295vh;
+		right: 2pc;
+		background-color: white;
+	}
+	.return:hover {
+		cursor: pointer;
+	}
+	.return a{
+		color: #101010;
+	}
+}
