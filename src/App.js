@@ -45,7 +45,7 @@ function App() {
 	<div className="return" onClick={scrollToTop}>⮝</div>
       	<footer>
 		<a href="https://github.com/mr4dd"> github </a>
-		<a href="mailto:adam.co"> email </a>
+		<a href="mailto:adamconta@outlook.com"> email </a>
 		<p className="copyright"> © 2024 adam </p>
       	</footer>
       </div>

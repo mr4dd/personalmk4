@@ -7,10 +7,10 @@
 	text-align: center
 }
 .landing {
-	background-image: linear-gradient(to bottom, #10101088, #ffffff, #ffffff);
+	background-image: linear-gradient(to bottom, #101010, #ffffff, #ffffff);
 }
 .projects {
-	background-image: linear-gradient(to top, #10101088, #ffffff, #ffffff);
+	background-image: linear-gradient(to top, #101010, #ffffff, #ffffff);
 }
 h1 {
 	font-size: 64px;
