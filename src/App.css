@@ -10,6 +10,7 @@
 	background-image: linear-gradient(to bottom, #101010, #ffffff, #ffffff);
 }
 .projects {
+	padding-bottom: 2%;
 	background-image: linear-gradient(to top, #101010, #ffffff, #ffffff);
 }
 h1 {
