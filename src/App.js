@@ -39,7 +39,7 @@ function App() {
 	<ul>
 		<li> <a href="https://github.com/mr4dd/todew"> Todo app </a></li>
 		<li> <a href="https://github.com/mr4dd/jolt"> AI assistant for the terminal </a> </li>
-		<li> Inventory management (public repo coming soon) </li>
+		<li> <a href="https://github.com/mr4dd/gostash"> Inventory management </a> </li>
 		<li> <a href="https://github.com/mr4dd/personalmk4"> echo $PWD </a> </li>
 	</ul>
 	<div className="return" onClick={scrollToTop}>⮝</div>
